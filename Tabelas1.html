@@ -49,8 +49,50 @@
     
     </p>
     <p>
-        <button type="submit">Enviar</button>
+        <label for="date"> Data </label>
+        <input type="date"id="date" name="date"
+        value = "2021-12-21" >
+    </p>
+
+    <p>
+        <label for="time"> Data e hora </label>
+        <input type="datetime-local"id="datetime" name="datetime"
+        value = "2021-12-21T20:00">
+    </p>
+
+    <p>
+        <label for="time"> Hora: </label>
+        <input type="time"id="time" name="time"
+        value = "20:00:00">
+    </p>
+
+    <p>
+        <label for="cor"> Cor preferida </label>
+        <input type="color"id="cor" name="cor"
+        value = "#ff0000">
+    </p>
+    <p>
+        <label for="email"> Seu e-mail </label>
+        <input type="email"id="email" name="email"
+        placeholder="ex.: email@email.com">
+    </p>
+
+    <p>
+        <label for="foto"> Sua foto </label>
+        <input type="file"id="foto" name="foto"
+        accept=".png, .svg, image/*">
+    </p>
+
+    <p>
+        <label for="number"> Digite um número </label>
+        <input type="number"id="number" name="number"
+        placeholder="Digite um número"
+        min="10" max="50" step="5">
+    </p>
+
+    <p>
         <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
     </p>
 
     </form>
