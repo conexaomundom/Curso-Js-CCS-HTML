@@ -78,9 +78,65 @@
     </p>
 
     <p>
+        <label for="password"> Digite sua senha</label>
+        <input type="password"id="password" name="password"
+        placeholder="Digite sua senha">
+    </p>
+
+    <p>
+        <label for="range"> Digite sua senha</label>
+        <input type="range"id="range" name="range"
+        min="0" min="10" step="2" list="tickmarks"
+        >
+        <datalist id="tickmarks">
+        <option value="0" label="0%"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50" label="50%"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100" label="100%"></option>
+        </datalist>
+    </p>
+
+    <p>
         <label for="foto"> Sua foto </label>
         <input type="file"id="foto" name="foto"
         accept=".png, .svg, image/*">
+    </p>
+
+    <p>
+        <label for="url"> Sua url </label>
+        <input type="url"id="url" name="url"
+        placeholder="Digite sua url">
+    </p>
+    <p>
+        <label for="search"> Digite algo </label>
+        <input type="search"id="search" name="search"
+        placeholder="Faça uma pesquisa">
+    </p>
+
+    <p>
+        <label for="select"> Selecione algo </label>
+        <select id="select" name="select">
+            <option value="Qualquer 1" label="Label 1">Valor</option>
+            <option value="Qualquer 2" label="Label 2">Valor</option>
+            <option value="Qualquer 3" label="Label 3">Valor</option>
+            <option value="Qualquer 4" label="Label 4">Valor</option>
+            <option value="Qualquer 5" label="Label 5">Valor</option>
+            <option value="Qualquer 7" label="Label 6">Valor</option>
+
+        </select>
+    </p>
+
+    <p>
+        <label for="textarea"> Text area</label>
+        <textarea name="textarea" id="textarea"
+        rows="5" cols="15"></textarea>
     </p>
 
     <p>
